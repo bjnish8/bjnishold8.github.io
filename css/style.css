@@ -11,7 +11,7 @@ body {
 
 .topic {
     text-transform: uppercase;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -23,6 +23,7 @@ div.block {
     padding-top: 10px;
     color: #4d4d4d;
     text-decoration: none;
+    padding-bottom: 40px;
 }
 
 div.footerblock {
