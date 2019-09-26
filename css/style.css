@@ -26,6 +26,12 @@ div.block {
     padding-bottom: 40px;
 }
 
+ul,li {
+    margin: 3px;
+    margin-left: 10px;
+    padding: 0px;
+}
+
 div.footerblock {
     Justify-content: space-evenly;
     background-color: rgb(226, 235, 232);
@@ -87,10 +93,10 @@ h1.logo {
 
 @media screen and (max-width: 600px) {
     .events {
-      visibility: hidden;
-      display: none;
+        visibility: hidden;
+        display: none;
     }
-  }
+}
 
 .timeline {
     margin: 0 auto;
