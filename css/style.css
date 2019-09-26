@@ -81,9 +81,16 @@ h1.logo {
 }
 
 .email {
-    margin-top: 15px;
+    margin-top: 20px;
     text-align: left;
 }
+
+@media screen and (max-width: 600px) {
+    .events {
+      visibility: hidden;
+      display: none;
+    }
+  }
 
 .timeline {
     margin: 0 auto;
