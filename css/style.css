@@ -259,6 +259,7 @@ p.bio {
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    flex-wrap:wrap;
 }
 
 .skills li:not(:first-child){
