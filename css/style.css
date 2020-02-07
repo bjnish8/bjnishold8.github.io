@@ -254,3 +254,21 @@ p.bio {
     border-radius: 50%;
     margin-right: 10%;
 }
+
+.skills {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.skills li:not(:first-child){
+    background-color: #4d4d4d;
+    padding: 3px;
+    border-radius: 3px;
+    color: white;
+}
+
+.skills li:first-child{
+    font-size: 12px;
+    font-weight: 600;
+}
