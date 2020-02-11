@@ -45,13 +45,14 @@
         <img src="img/profile/profile.jpg" style="width:60px;height:60px;" alt="Avatar" class="avatar">
     </div>
 
-    <div class="block" id="about">
+    <div class="columnblock" id="about">
         <div>
             <p class="bio">Hi. I am a graduate student pursuing a Master of Computer Science at Bowling Green State
                 University.
                 During my undergraduate, my experiences were eclectic
-                ranging from GUIs to Data Science, Big Data to Graphic Desigining. But, for the past couple
-                of years, I have tried to invest my effort towards web development
+                ranging from designing Graphical User Interfaces (GUIs) to Data Science, Big Data to Graphic Desigining.
+                But,
+                for the past couple of years, I have tried to invest my effort towards web development
                 in my pursuit of a career as a professional Full Stack Web Developer.
                 My primary languages for development is Python and JavaScript and I have more than 2 years of experience
                 working with either.
@@ -110,11 +111,13 @@
     <div class="columnblock">
         <h2 class="topic">Experience</h2>
         <div class="block">
-            <div style="margin-top: 20px;">
+            <div>
                 <div>
-                    <b>
-                        Full Stack Software Developer Intern Senecio Software Corp, Bowling Green, OH May 2019 – Present
-                    </b>
+                    <div class="role">
+                        <span>Junior Full Stack Software Developer
+                            <br> Senecio Software Corp, Bowling Green, OH </span>
+                        <span> May 2019 – Present </span>
+                    </div>
                     <ul>
                         <li>Designed a SQL database schema and developed a REST API using Node conforming with ES6
                             standards.</li>
@@ -128,10 +131,12 @@
                     </ul>
                 </div>
                 <div style="margin: 40px 0px 0px">
-                    <b>
-                        Graduate Teaching Assistant Bowling Green State University, Bowling Green, OH August 2018 -
-                        Present
-                    </b>
+                    <div class="role">
+                        <span>Graduate Teaching Assistant
+                            <br> Bowling Green State University, Bowling Green, OH </span>
+                        <span> August 2018 -
+                            Present </span>
+                    </div>
                     <ul>
                         <li> TA for Computer Organization and Architecture, Algorithms and Data Structures, and
                             Object-oriented Programming </li>
@@ -142,7 +147,7 @@
                 </div>
             </div>
 
-            <div class="events" style="margin-right: -60px; margin-top: -30px;">
+            <div class="events" style="margin:-20px 0px 0px">
                 <ul class="timeline">
                     <li class="year first">2020</li>
                     <li class="year first">2019</li>
@@ -159,7 +164,7 @@
 
 
 
-    <div class="columnblock" id="projects" style="margin-top: -30px;">
+    <div class="columnblock" id="projects">
         <h2 class="topic">Some Projects</h2>
         <div>
             <button class="collapsible">
@@ -188,6 +193,7 @@
                 <p>
                     <ul>
                         <li> Visualization of software changes after parsing xml data</li>
+                        <li> Vanilla JS, d3.js, HTML/CSS </li>
                         <li> <a href="software.html"> See Visualization </a></li>
                     </ul>
 
@@ -200,6 +206,7 @@
                 <p>
                     <ul>
                         <li> Visualization of MLB teams from 2001 till 2015 </li>
+                        <li> Vanilla JS, d3.js, HTML/CSS, jQuery </li>
                         <li> <a href="MLB.html"> See MLB Project </a></li>
                     </ul>
 
@@ -253,39 +260,30 @@
     </div>
 
     <footer>
-        <div class="footerblock" id="contact">
+        <ul>
 
-            <div class="columnblock">
+            <li>
                 <a class="contactlink" href="https://github.com/bjnish8" target="_blank"
                     style="color:black;text-decoration:none;">
-                    <h1 class="logo"><i class="fa fa-github"></i> </h1>
-                    <div> Github </div>
+                    <h2 class="logo"><i class="fa fa-github"></i> </h3>
                 </a>
-            </div>
-            <div class="columnblock">
+            </li>
+            <li>
                 <a class="contactlink" href="https://www.linkedin.com/in/binishk"
                     style="color:rgb(9, 130, 211);text-decoration:none;" target="_blank">
-                    <h1 class="logo"><i class="fa fa-linkedin" style="color:rgb(9, 130, 211)"> </i></h1>
-                    <div> LinkedIn </div>
+                    <h2 class="logo"><i class="fa fa-linkedin" style="color:rgb(9, 130, 211)"> </i></h3>
                 </a>
-            </div>
-            <div class="columnblock" style="margin-top: 10px;">
+            </li>
+            <li>
                 <a class="contactlink" href="mailto: binishkoirala@gmail.com" style="color:black;text-decoration:none;">
-                    <div>
-                        <h1 class="text-center"> <i class="glyphicon glyphicon-envelope"></i> </h1>
-                    </div>
-                    <div>
-                        <h5 class="text-center"> Email </h5>
-                    </div>
+                    <h2 class="text-center"> <i class="glyphicon glyphicon-envelope"></i> </h3>
                 </a>
-            </div>
-            <div class="columnblock">
-                <h5 class="text-center"> ... </h5>
-                <h5 class="text-center"> (515) 771-9339 </h5>
-                <h5 class="text-center"> binishkoirala@gmail.com </h5>
-                <h5 class="text-center"> Bowling Green, OH, 43402 </h5>
+            </li>
+        </ul>
+        <div>
+            <h5 class="text-center"> Find me at: </h5>
+            <h5 class="text-center"> binishkoirala@gmail.com </h5>
 
-            </div>
         </div>
     </footer>
 
